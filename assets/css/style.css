@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  text-align: center;
+  color: #000f08;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.dark {
+  background: #000f08;
+  color: #fff;
+}
+
+/* Navbar */
+nav {
+  text-align: left;
+  padding: 35px 120px;
+  font-size: 1.5625rem;
+}
+
+nav ul li {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 60px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+/* Header */
+#inicio {
+  text-align: right;
+  background-image: url(../img/bg-hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 100px;
+  text-shadow: 0 3px 6px black;
+}
+
+#inicio h1 {
+  font-size: 3.75rem;
+  letter-spacing: 1.5px;
+}
+
+#inicio h2 {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+/* Seccion Ubicacion */
+#ubicacion {
+  padding: 140px 0;
+}
+
+#ubicacion h2 {
+  font-size: 2.8125rem;
+  margin: 40px 0 20px 0;
+}
+
+#ubicacion p {
+  font-size: 1.5625rem;
+}
+
+#ubicacion img {
+  width: 520px;
+}
+
+/* Seccion Próxima Charla */
+#proxima-charla {
+  background: #a4452c;
+  padding: 100px;
+  color: white;
+}
+
+#proxima-charla img {
+  width: 312px;
+}
+
+#proxima-charla img,
+.texto {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#proxima-charla .texto {
+  text-align: left;
+  /* width: 40%; */
+  width: 675px;
+  margin-left: 40px;
+}
+
+#proxima-charla .texto h2 {
+  font-size: 2.8rem;
+}
+
+#proxima-charla .texto h3 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+
+#proxima-charla .texto h4 {
+  font-size: 2rem;
+}
+
+#proxima-charla .texto span {
+  font-size: 1.25rem;
+}
+
+#proxima-charla .texto p {
+  font-size: 1.5rem;
+}
+
+#proxima-charla .texto h4,
+span,
+p {
+  font-weight: 400;
+}
+
+/* Seccion Eventos */
+
+#eventos {
+  padding: 100px;
+}
+
+#eventos h2 {
+  font-size: 2.8rem;
+  margin-bottom: 50px;
+}
+
+#eventos article h3 {
+  font-size: 2.18rem;
+}
+
+#eventos article {
+  display: inline-block;
+  margin: 0 50px;
+  font-size: 2rem;
+}
+
+#eventos article img {
+  width: 415px;
+  margin-bottom: 40px;
+}
+
+#eventos article a {
+  text-decoration: none;
+  color: #000f08;
+}
+
+/* Footer */
+footer {
+  padding: 70px 0 40px 0;
+  font-size: 1.56rem;
+}
+
+footer p {
+  margin-top: 40px;
+}
+
+footer a {
+  color: white;
+  margin: 0 20px;
+  text-decoration: none;
+}
+
+
+/* Evento 01 */
+.container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 1085px;
+}
+
+#evento1 h1 {
+  font-size: 45px;
+  margin: 100px 0 70px 0;
+  text-align: left;
+  font-weight: bold;
+}
+
+#evento1 img {
+  width: 1085px;
+}
+
+#evento1 p,
+#evento1 h2 {
+  font-size: 25px;
+  margin: 70px 0 50px 0;
+  text-align: left;
+}
+
+#evento1 h2 {
+  font-size: 40px;
+}
+
+.event-separator {
+  margin-top: 120px;
+}
